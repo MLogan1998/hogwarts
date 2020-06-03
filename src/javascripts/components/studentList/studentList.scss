@@ -1,0 +1,13 @@
+@import '../../../styles/styles';
+
+
+.student-list {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+
+  li {
+    border: 2px solid darkgreen;
+    padding: 5px;
+  }
+}
